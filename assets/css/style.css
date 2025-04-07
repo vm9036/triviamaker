@@ -522,3 +522,73 @@ body {
 }
 
 /* responsive section finish */
+
+/* host section start */
+
+.host_sec{
+    background: #73ccd0;
+}
+
+.main_host_sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 0 20px 0;
+}
+
+.main_host_sec h2{
+    color: white;
+    font-size: 35px;
+}
+
+.main_host_sec img{
+    width: 1300px;
+}
+
+/* host section finish */
+
+/* stage section start */
+
+.main_stage_sec{ 
+    padding: 50px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.main_stage_sec h2{
+    font-size: 35px;
+    color: #515151;
+}
+
+.main_stage_sec h3{
+    font-size: 28px;
+    color: #515151;
+}
+
+.main_stage_sec button{
+    padding: 15px 35px;
+    border: 3px solid white;
+    border-radius: 5px;
+    font-size: 22px;
+    color: white;
+    background: #89d3e6;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* stage section finish */
+
+/* full customization sec start */
+
+.full_customization_sec {
+    background: #5fd8e0;
+    padding: 50px 0 20px 0;
+    text-align: center;
+}
+
+/* full customization sec finish */
