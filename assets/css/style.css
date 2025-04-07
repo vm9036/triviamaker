@@ -56,10 +56,10 @@ body {
 
 .hero_sec{
     background: url(https://triviamaker.com/wp-content/uploads/2024/02/2.png) no-repeat center center/cover;
-    height: 90vh;
+    height: auto;
     background-attachment: fixed;
+    padding-bottom: 80px;
 }
-
 .hero_content{
     display: flex;
     justify-content: center;
@@ -107,3 +107,24 @@ body {
 }
 
 /* Hero section  Finish*/
+
+/* pramotion section start */
+
+.promotion_sec{
+    background: #f2f2f2;
+    padding: 50px 0;
+}
+
+.pramotion_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.pramotion_img img{
+    width: 300px;
+    height: auto;
+}
+
+/* pramotion section finish */
