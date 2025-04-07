@@ -285,3 +285,79 @@ body {
 /* game mode section finish */
 
 
+/* school mode section start */
+
+.school_mode_sec{
+    background: #18819b;
+}
+
+.school_mode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 0 40px 0;
+}
+
+.school_mode h2{
+    color: white;
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.school_mode p{
+    font-size: 24px;
+    color: white;
+}
+
+.school_mode button{
+    padding: 20px 35px;
+    border: 3px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background: transparent;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* school mode section finish */
+
+/* classroom section start */
+
+.classroom_sec{
+    background: #1f687a;
+}
+
+.classroom_sec_main{
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 72px;
+}
+
+.classroom_img img{
+    width: 500px;
+    height: auto;
+}
+
+.classroom_content{
+    max-width: 500px;
+}
+
+.classroom_content h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom:50px ;
+}
+
+.classroom_content ul li{
+    color: white;
+    font-size: 15px;
+    margin-left: 30px;
+}
+/* classroom section finish */
