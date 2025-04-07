@@ -460,3 +460,65 @@ body {
 }
 
 /* class section finish */
+
+/* responsive section start */
+
+.responsive_main_sec{
+    padding: 50px 0 20px 0;
+}
+
+.responsive_main_sec h2{
+    text-align: center;
+    font-size: 35px;
+    color: #515151;
+}
+
+.responsive_main_imges{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.res_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.res_img img{
+    width: 250px;
+    height: auto;
+}
+
+.res_img .mac{
+    width: 550px;
+}
+
+.res_img button{
+    padding: 12px 30px;
+    border: 3px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background: #1faacd;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.res_img .macbtn{
+    margin-top: 66px;
+}
+
+.res_img .iosbtn{
+    background: #515151;
+}
+
+.res_img .androidbtn{
+    background: #40d13d;
+}
+
+/* responsive section finish */
