@@ -177,3 +177,62 @@ body {
 }
 
 /* School fun section finish*/
+
+/* crowd mode section start */
+
+.crowd_mode{
+    background: #308094;
+}
+
+.crowd_mode_sec {
+    padding: 50px 0 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.crowd_mode_sec h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.crowd_mode_sec h3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.crowd_mode_sec h4{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.crowd_mode_sec p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 60%;
+}
+
+.crowd_mode_sec img{
+    margin-top: 36px;
+    width: 1000px;
+    height: auto;
+}
+
+.crowd_mode_sec button{
+    padding: 15px 35px;
+    border: 3px solid white;
+    border-radius: 30px;
+    font-size: 27px;
+    color: white;
+    background: transparent;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+/* crowd mode section finish */
