@@ -1,0 +1,251 @@
+@media screen and (max-width: 767px) {
+
+    /* header section start */
+    .main_header {
+        flex-direction: column;
+    }
+
+    .header_links ul {
+        gap: 12px;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    /* header section finish */
+
+    /* hero section start */
+
+    .hero_content h1 {
+        font-size: 45px;
+        padding-inline: 20px;
+    }
+
+    .hero_content p {
+        font-size: 17px;
+        padding-inline: 20px;
+    }
+
+    .hero_content button {
+        font-size: 20px;
+        padding: 16px 27px;
+        width: 80%;
+    }
+
+    .hero_content .freebtn {
+        padding: 15px 3px;
+        width: 66%;
+        font-size: 23px;
+    }
+
+    /* hero section finish */
+
+    /* pramotion section start */
+
+    .pramotion_sec {
+        display: none;
+    }
+
+    /* pramotion section finish */
+
+    /* school fun section start*/
+
+    .school_fun_main {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .school_fun_video video {
+        margin-top: 10px;
+        width: 270px;
+        height: auto;
+    }
+
+    /* school fun section finish */
+
+    /* crowd mode section start */
+
+    .crowd_mode_sec h2 {
+        font-size: 24px;
+        padding-inline: 15px;
+    }
+
+    .crowd_mode_sec h3 {
+        font-size: 22px;
+        padding-inline: 15px;
+    }
+
+    .crowd_mode_sec img {
+        width: 100%;
+        object-fit: cover;
+        padding-inline: 10px;
+    }
+
+    .crowd_mode_sec iframe {
+        height: 250px;
+        width: 300px;
+    }
+
+    .crowd_mode_sec button {
+        margin-top: 10px;
+    }
+
+    /* crowd mode section end */
+
+    /* game mode section start */
+
+    .game_mode_sec h2 {
+        padding-inline: 25px;
+        font-size: 27px;
+    }
+
+    .game_mode_img_sec {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .game_mode_sec button {
+        width: 80%;
+        margin-top: 5px;
+    }
+
+    /* game mode section finish */
+
+    /* school mode section start */
+
+    .school_mode h2 {
+        padding-inline: 10px;
+        font-size: 33px;
+    }
+
+    .school_mode p {
+        padding-inline: 20px;
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .school_mode button {
+        width: 80%;
+        padding: 10px 7px;
+    }
+
+    /* school mode section finish */
+
+    /* classroom section start */
+
+    .classroom_sec_main {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .classroom_img img {
+        width: 100%;
+        object-fit: cover;
+        padding-inline: 25px;
+    }
+
+    .classroom_content {
+        padding-inline: 20px;
+    }
+
+    .classroom_content h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .classroom_content ul li {
+        line-height: 25px;
+    }
+
+    /* classroom section finish */
+
+    /* companyname section start */
+
+    .companyname_sec_main p {
+        padding-inline: 20px;
+    }
+
+    .companyname_img {
+        flex-wrap: wrap;
+    }
+
+    .companyname_img img {
+        width: 100px;
+    }
+
+
+    .companyname_sec_main button {
+        width: 80%;
+        padding: 8px;
+        font-size: 18px;
+    }
+
+    /* companyname section finish */
+
+    /* study section start */
+
+    .study_sec_main h2 {
+        font-size: 25px;
+        padding-inline: 15px;
+    }
+
+    .study_sec_main video {
+        width: 250px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    /* study section finish */
+
+    /* class section start */
+
+    .class_sec {
+        height: auto;
+    }
+
+    .class_sec_main {
+        flex-direction: column;
+    }
+
+    .class_sec_img img {
+        width: 100%;
+        object-fit: cover;
+        padding-inline: 20px;
+    }
+
+    .class_sec_content h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        padding-inline: 20px;
+    }
+
+    /* class section finish */
+
+    /* responsive section start */
+
+    .responsive_main_sec h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        padding-inline: 20px;
+    }
+
+    .responsive_main_imges {
+        flex-direction: column;
+    }
+
+    .res_img .macbtn {
+        margin-top: 0px;
+        padding: 12px 15px;
+    }
+
+    /* responsive section finish */
+
+
+    /* footer cpoyright section start */
+
+    .copyright_sec {
+        padding-inline: 15px;
+    }
+
+    /* footer cpoyright section finish */
+}
