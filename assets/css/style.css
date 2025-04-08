@@ -607,7 +607,74 @@ body {
     display: flex;
     justify-content: center;
     align-items: start;
+    gap: 40px;
+}
+
+.mix_cust_left{
+    display: flex;
+    justify-content: right;
+    align-items: start;
     gap: 20px;
+}
+
+.mix_cust_left .cust_content h2{
+    color: white;
+    font-size: 35px;
+    text-align: right;
+}
+
+.mix_cust_left .cust_content p{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.mix_cust_left .icon i{
+    font-size: 45px;
+    color: white;
+}
+
+.full_cust_middle img{
+    width: 300px;
+    height: auto;
+}
+
+.full_cust_left .main_cust_mix{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.full_cust_right .main_cust_mix{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.mix_cust_right{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    gap: 20px;
+}
+
+.mix_cust_right .cust_content h2{
+    color: white;
+    font-size: 35px;
+    text-align: left;
+}
+
+.mix_cust_right .cust_content p{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.mix_cust_right .icon i{
+    font-size: 45px;
+    color: white;
 }
 
 /* full customization sec finish */
