@@ -586,9 +586,28 @@ body {
 /* full customization sec start */
 
 .full_customization_sec {
-    background: #5fd8e0;
+    background: #35525b;
     padding: 50px 0 20px 0;
+}
+
+.main_full_customization_sec h1{
     text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.main_full_customization_sec .main_content{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.full_customization{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
 }
 
 /* full customization sec finish */
