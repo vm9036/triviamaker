@@ -56,8 +56,9 @@
 
     .school_fun_video video {
         margin-top: 10px;
-        width: 270px;
+        width: 100%;
         height: auto;
+        padding-inline: 10px;
     }
 
     /* school fun section finish */
@@ -76,13 +77,14 @@
 
     .crowd_mode_sec img {
         width: 100%;
-        object-fit: cover;
+        /* object-fit: cover; */
         padding-inline: 10px;
     }
 
     .crowd_mode_sec iframe {
         height: 250px;
-        width: 300px;
+        width: 100%;
+        padding-inline: 10px;
     }
 
     .crowd_mode_sec button {
@@ -170,7 +172,8 @@
     }
 
     .companyname_img img {
-        width: 100px;
+        width: 130px;
+        padding-inline: 15px;
     }
 
 
@@ -190,9 +193,10 @@
     }
 
     .study_sec_main video {
-        width: 250px;
+        width: 100%;
         height: auto;
         margin-top: 20px;
+        padding-inline: 15px;
     }
 
     /* study section finish */
@@ -209,7 +213,7 @@
 
     .class_sec_img img {
         width: 100%;
-        object-fit: cover;
+        /* object-fit: cover; */
         padding-inline: 20px;
     }
 
@@ -235,13 +239,201 @@
 
     .res_img .macbtn {
         margin-top: 0px;
-        padding: 12px 15px;
+        padding: 12px 11px;
+        font-size: 19px;
+    }
+
+    .res_img .mac {
+        width: 100%;
+        padding-inline: 20px;
     }
 
     /* responsive section finish */
 
+    /* host section start */
 
-    /* footer cpoyright section start */
+    .main_host_sec h2 {
+        font-size: 32px;
+    }
+
+    .main_host_sec img {
+        width: 100%;
+        padding-inline: 15px;
+    }
+
+    /* host section finish */
+
+    /* stage section start */
+
+    .main_stage_sec h2 {
+        font-size: 30px;
+    }
+
+    .main_stage_sec video {
+        height: auto;
+        width: 100%;
+        padding-inline: 15px;
+    }
+
+    .main_stage_sec h3 {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .main_stage_sec button {
+        padding: 10px 10px;
+        width: 85%;
+        font-size: 19px;
+    }
+
+    /* stage section finish */
+
+    /* full customization section start */
+
+    .full_customization_sec {
+        padding: 50px 0;
+    }
+
+    .main_full_customization_sec h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .main_full_customization_sec .main_content {
+        font-size: 16px;
+        padding-inline: 35px;
+    }
+
+    .full_customization {
+        margin-top: 35px;
+        flex-direction: column;
+    }
+
+    .full_cust_left .main_cust_mix {
+        gap: 45px;
+    }
+
+    .mix_cust_left {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .mix_cust_left .cust_content h2 {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .mix_cust_left .cust_content p {
+        font-size: 17px;
+        margin-top: 10px;
+        padding-inline: 28px;
+        text-align: center;
+    }
+
+    .full_cust_middle {
+        margin: 0 auto;
+    }
+
+    .full_cust_middle img {
+        width: 210px;
+    }
+
+    .full_cust_right .main_cust_mix {
+        gap: 45px;
+    }
+
+    .mix_cust_right {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .mix_cust_right .cust_content h2 {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .mix_cust_right .cust_content p {
+        font-size: 17px;
+        margin-top: 10px;
+        padding-inline: 28px;
+        text-align: center;
+    }
+
+    /* full customization section finish */
+
+    /* testimonial section start */
+
+    .testimonial_boxes {
+        flex-direction: column;
+        width: 100%;
+        padding-inline: 50px;
+    }
+
+    .test_content {
+        flex-direction: column;
+    }
+
+    /* testimonial section finish */
+
+    /* profit section start */
+
+    .profit_sec_main {
+        padding: 50px 20px 10px 20px;
+    }
+
+    .profit_sec_main h2 {
+        font-size: 24px;
+    }
+
+    .profit_sec_main p {
+        font-size: 12px;
+        padding-inline: 20px;
+    }
+
+    .profit_sec_main iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    /* profit section finish */
+
+    /* footer section start */
+
+    .footer_sec {
+        padding-inline: 20px;
+    }
+
+    .contact_info {
+        flex-direction: column;
+    }
+
+    .contact_with h4 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .contact_icons {
+        margin-bottom: 20px;
+    }
+
+    .contact_with hr {
+        width: 250px;
+    }
+
+    .contact_us h4 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .contact_us hr {
+        width: 250px;
+    }
+
+    /* footer section finish */
+
+    /* footer copyright section start */
 
     .copyright_sec {
         padding-inline: 15px;
