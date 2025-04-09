@@ -1,6 +1,7 @@
 /* tablet responsive media query */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+
     /* header section start */
     .main_header {
         padding-inline: 20px;
@@ -10,8 +11,8 @@
         gap: 20px;
     }
 
-    /* header section finish */ 
-    
+    /* header section finish */
+
     /* pramotion section start */
 
     .pramotion_img {
@@ -27,6 +28,10 @@
 
     /* school fun section start*/
 
+    .school_fun_main {
+        flex-direction: column;
+    }
+
     .school_fun {
         padding-inline: 25px;
     }
@@ -36,14 +41,14 @@
         height: auto;
     }
 
-    .school_fun_content h2{
+    .school_fun_content h2 {
         color: white;
     }
-    
+
     /* school fun section finish*/
 
     /* crowd mode section start */
-    
+
     .crowd_mode_sec {
         padding-inline: 20px;
     }
@@ -60,7 +65,7 @@
         font-size: 23px;
     }
 
-    .crowd_mode_sec iframe{
+    .crowd_mode_sec iframe {
         width: 100%;
     }
 
@@ -96,10 +101,202 @@
     .school_mode h2 {
         font-size: 42px;
     }
-    
+
     .school_mode p {
         text-align: center;
     }
 
     /* school mode section finish */
+
+    /* classroom section start */
+
+    .classroom_sec_main {
+        padding-inline: 25px;
+        gap: 5px;
+    }
+
+    .classroom_img img {
+        width: 85%;
+    }
+
+    .classroom_content {
+        width: 1191px;
+    }
+
+    .classroom_content h2 {
+        margin-bottom: 25px;
+        font-size: 32px;
+    }
+
+    .classroom_content ul li {
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+    /* classroom section finish */
+
+    /* companyname section start */
+
+    .companyname_sec {
+        padding-inline: 25px;
+    }
+
+    .companyname_sec_main p {
+        font-size: 25px;
+    }
+
+    .companyname_img {
+        flex-wrap: wrap;
+    }
+
+    /* companyname section finish */
+
+    /* class section start */
+
+    .class_sec {
+        height: auto;
+        padding-inline: 20px;
+    }
+
+    .class_sec_img img {
+        width: 70%;
+    }
+
+    .class_sec_content h2 {
+        max-width: none;
+    }
+
+    .class_sec_main {
+        gap: 0;
+    }
+
+    /* class section finish */
+
+    /* responsive section start */
+
+    .responsive_main_sec {
+        padding-inline: 20px;
+    }
+
+    .res_img img {
+        width: 100%;
+    }
+
+    .res_img .mac {
+        width: 100%;
+    }
+
+    .res_img button {
+        padding: 12px 10px;
+        font-size: 18px;
+    }
+
+    /* responsive section finish */
+
+    /* host section start */
+
+    .main_host_sec h2 {
+        font-size: 32px;
+    }
+
+    .main_host_sec img {
+        width: 100%;
+    }
+
+    .main_host_sec {
+        padding: 50px 25px;
+    }
+
+    /* host section finish */
+
+    /* full customization section start */
+
+
+    .full_customization_sec {
+        padding: 50px 25px;
+    }
+
+    .full_customization {
+        gap: 5px;
+    }
+
+    .mix_cust_left {
+        gap: 10px;
+    }
+
+    .mix_cust_left .cust_content h2 {
+        font-size: 24px;
+    }
+
+    .mix_cust_left .cust_content p {
+        font-size: 18px;
+    }
+
+    .mix_cust_right {
+        gap: 10px;
+    }
+
+    .mix_cust_right .cust_content h2 {
+        font-size: 24px;
+    }
+
+    .mix_cust_right .cust_content p {
+        font-size: 18px;
+    }
+
+    /* full customization section finish */
+
+    /* profit section start */
+
+    .profit_sec_main {
+        padding-inline: 25px;
+    }
+
+    .profit_sec_main p {
+        font-size: 18px;
+    }
+
+    .profit_sec_main iframe {
+        width: 100%;
+    }
+
+    /* profit section finish */
+
+    /* footer section start */
+
+    .footer_sec {
+        padding-inline: 20px;
+    }
+
+    .contact_with hr {
+        width: 250px;
+    }
+
+    .contact_with h4 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .contact_icons {
+        margin-top: 20px;
+    }
+
+    .contact_us hr {
+        width: 250px;
+    }
+
+    .contact_us h4 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .contact_us p {
+        font-size: 17px;
+    }
+
+    /* footer section finish */
+
+    .copyright_sec {
+        padding-inline: 15px;
+    }
 }
