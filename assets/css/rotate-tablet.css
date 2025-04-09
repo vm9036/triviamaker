@@ -1,0 +1,219 @@
+/* rotate tablet responsive media quary */
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /* pramotion section start */
+
+    .pramotion_img img {
+        width: 200px;
+        height: auto;
+    }
+
+    /* pramotion section finish */
+
+    /* school fun section start*/
+
+    .school_fun_main {
+        flex-direction: column;
+    }
+
+    .school_fun {
+        padding-inline: 50px;
+    }
+
+    .school_fun_video video {
+        width: 100%;
+        height: auto;
+    }
+
+    .school_fun_content h2 {
+        color: white;
+        font-size: 40px;
+    }
+
+    /* school fun section finish*/
+
+    /* crowd mode section start */
+
+    .crowd_mode_sec {
+        padding-inline: 30px;
+    }
+
+    .crowd_mode_sec iframe {
+        width: 100%;
+    }
+
+    .crowd_mode_sec button {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    /* crowd mode section finish */
+
+    /* game mode section start */
+
+    .game_mode {
+        padding-inline: 30px;
+    }
+
+    .game_mode_sec h2 {
+        font-size: 27px;
+    }
+
+    .game_mode_img_sec img {
+        width: 200px;
+    }
+
+    /* game mode section finish */
+
+    /* school mode section start */
+
+    .school_mode {
+        padding-inline: 40px;
+    }
+
+    .school_mode h2 {
+        font-size: 42px;
+    }
+
+    .school_mode p {
+        text-align: center;
+    }
+
+    /* school mode section finish */
+
+    /* classroom section start */
+
+    .classroom_sec_main {
+        padding-inline: 25px;
+        gap: 10px;
+    }
+
+    .classroom_img img {
+        width: 90%;
+    }
+
+    .classroom_content h2 {
+        margin-bottom: 25px;
+        font-size: 32px;
+    }
+
+    .classroom_content ul li {
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+    /* classroom section finish */
+
+    /* companyname section start */
+
+    .companyname_sec {
+        padding-inline: 30px;
+    }
+
+    .companyname_sec_main p {
+        font-size: 26px;
+    }
+
+    .companyname_img {
+        flex-wrap: wrap;
+    }
+
+    /* companyname section finish */
+
+    /* study section start */
+
+    .study_sec_main {
+        padding-inline: 30px;
+    }
+
+    .study_sec_main video {
+        width: 100%;
+        height: auto;
+    }
+
+    /* study section finish */
+
+    /* responsive section start */
+
+    .responsive_main_sec {
+        padding-inline: 30px;
+    }
+
+    .res_img img {
+        width: 100%;
+    }
+
+    .res_img .mac {
+        width: 100%;
+    }
+
+    /* responsive section finish */
+
+    /* host section start */
+
+    .main_host_sec h2 {
+        font-size: 40px;
+    }
+
+    .main_host_sec img {
+        width: 100%;
+    }
+
+    .main_host_sec {
+        padding: 50px 30px;
+    }
+
+    /* host section finish */
+
+    /* full customization section start */
+
+    .full_customization_sec {
+        padding:50px 20px;
+    }
+
+    /* full customization section finish */
+
+    /* footer section start */
+
+    .footer_sec {
+        padding-inline: 30px;
+    }
+
+    .contact_with hr {
+        width: 300px;
+    }
+
+    .contact_with h4 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .contact_icons {
+        margin-top: 20px;
+    }
+
+    .contact_us hr {
+        width: 300px;
+    }
+
+    .contact_us h4 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .contact_us p {
+        font-size: 17px;
+    }
+
+    /* footer section finish */
+
+
+    /* copyright section start */
+
+    .copyright_sec {
+        padding-inline: 25px;
+    }
+
+    /* copyright section finish */
+}
