@@ -296,7 +296,11 @@
 
     /* footer section finish */
 
+     /* copyright section start */
+
     .copyright_sec {
         padding-inline: 15px;
     }
+    
+     /* copyright section finish */
 }
