@@ -20,6 +20,10 @@ body {
 
 .header_sec {
     background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .main_header {
@@ -799,56 +803,59 @@ body {
 
 /* footer section start */
 
-.footer_sec{
+.footer_sec {
     background: #292c2c;
-    padding: 50px 0;
+    padding: 70px 0;
 }
 
-.contact_info{
+.contact_info {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.contact_with h4{
+.contact_with h4 {
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
+    padding-bottom: 20px;
 }
 
-.contact_with hr{
-    width: 400px;
+.contact_with hr {
+    width: 440px;
     border: none;
     height: 1px;
     background-color: #545656;
-    margin: 20px 0;
+    margin-bottom: 26px;
 }
 
-.contact_icons i{
-    font-size: 20px;
-    color: rgb(192, 185, 185);
+.contact_icons i {
+    font-size: 32px;
+    color: #4f5356;
     margin-right: 10px;
 }
 
-.contact_us h4{
+.contact_us h4 {
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
+    padding-bottom: 20px;
 }
 
-.contact_us hr{
-    width: 400px;
+.contact_us hr {
+    width: 440px;
     border: none;
     height: 1px;
     background-color: #545656;
-    margin: 20px 0;
+    margin-bottom: 26px;
 }
 
-.contact_us p{
+.contact_us p {
     color: white;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 
 /* footer section finish */
